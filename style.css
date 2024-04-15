@@ -16,12 +16,14 @@ header {
 }
 
 i {
-  color: #047616;
+  color: black;
 }
 
 .header-icons {
   display: flex;
   gap: 14px;
+  font-size: 24px;
+  color: black;
 }
 
 .header-icons a:hover i {
