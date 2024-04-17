@@ -36,3 +36,10 @@ a {
     cursor: pointer;
     text-decoration: none;
 }
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 130%;
+
+    }
+}

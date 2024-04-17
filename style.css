@@ -167,6 +167,13 @@ i {
 @media screen and (max-width: 480px) {
   .hero h1 {
     font-size: 24px;
+    margin-right: 122px;
+  }
+  .button-contact {
+    margin-right: 122px;
+  }
+  .header-icons {
+    margin-right: 125px;
   }
 }
 .about {
@@ -371,4 +378,10 @@ img {
 a {
   cursor: pointer;
   text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 130%;
+  }
 }/*# sourceMappingURL=style.css.map */
