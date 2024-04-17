@@ -116,24 +116,21 @@
     overflow: hidden;
     color: #fff;
 
-    img {
-        margin-right: 600px;
-    }
+
 }
 
 .about-content {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     gap: 14px;
     margin: 0;
+    padding: 0;
+
 
     img {
-        padding-top: 30px;
-        max-width: 5200px;
-        align-items: start;
+        max-width: 100%
     }
-
 
 }
 
@@ -145,11 +142,16 @@
     h2 {
         font-size: 38px;
         margin-bottom: 24px;
+        margin-left: 38px;
     }
 
     p {
-        margin-bottom: 14px;
-        line-height: 150%;
+        display: block;
+        margin-left: 38px;
+    }
+
+    .funcionamento {
+        margin-right: 50px;
     }
 }
 
