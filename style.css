@@ -195,7 +195,7 @@ i {
 }
 .about-content img {
   padding-top: 30px;
-  max-width: 900px;
+  max-width: 5200px;
   align-items: start;
 }
 
@@ -300,13 +300,19 @@ i {
   }
 }
 @media screen and (max-width: 480px) {
+  .segunda {
+    margin-right: 112px;
+  }
   .segunda img {
-    margin-right: 460px;
+    width: 500px;
   }
   .services .services-content h2 {
     margin-right: 90px;
   }
   .services .services-content p {
+    margin-right: 112px;
+  }
+  .services h2 {
     margin-right: 112px;
   }
 }
@@ -319,11 +325,19 @@ i {
   gap: 24px;
   color: #047616;
 }
+.footer .footer-icons {
+  margin-right: 112px;
+}
+.footer .footer-icons i {
+  color: black;
+}
 .footer img {
-  width: 396px;
+  width: 600px;
+  margin-right: 112px;
 }
 .footer p {
   color: black;
+  margin-right: 70px;
 }
 
 .footer-icons {

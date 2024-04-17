@@ -125,7 +125,7 @@
 
     img {
         padding-top: 30px;
-        max-width: 900px;
+        max-width: 5200px;
         align-items: start;
     }
 
@@ -244,9 +244,12 @@
 
 @media screen and (max-width: 480px) {
     .segunda {
+        margin-right: 112px;
+
         img {
-            margin-right: 460px;
+            width: 500px;
         }
+
     }
 
     .services {
@@ -258,6 +261,11 @@
             p {
                 margin-right: 112px;
             }
+
+        }
+
+        h2 {
+            margin-right: 112px;
         }
     }
 }
@@ -272,12 +280,22 @@
     gap: 24px;
     color: $icons;
 
+    .footer-icons {
+        margin-right: 112px;
+
+        i {
+            color: black;
+        }
+    }
+
     img {
-        width: 396px;
+        width: 600px;
+        margin-right: 112px;
     }
 
     p {
         color: black;
+        margin-right: 70px;
     }
 }
 
