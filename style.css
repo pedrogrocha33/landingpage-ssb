@@ -170,6 +170,10 @@ i {
     font-size: 24px;
     margin-right: 122px;
   }
+  .hero p {
+    margin-right: 130px;
+    font-weight: bolder;
+  }
   .button-contact {
     margin-right: 122px;
   }
@@ -332,12 +336,12 @@ i {
   color: black;
 }
 .footer img {
-  width: 600px;
-  margin-right: 112px;
+  width: 396px;
+  margin-right: 100px;
 }
 .footer p {
   color: black;
-  margin-right: 70px;
+  margin-right: 6;
 }
 
 .footer-icons {
@@ -383,6 +387,18 @@ i {
 @media screen and (max-width: 768px) {
   .btn-whatsapp img {
     max-width: 64px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .about-description {
+    width: 50%;
+    margin-right: 230px;
+  }
+  .about-description h2 {
+    color: black;
+  }
+  .about-description p {
+    font-size: px;
   }
 }
 body {

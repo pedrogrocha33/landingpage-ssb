@@ -96,6 +96,11 @@
         margin-right: 122px;
     }
 
+    .hero p {
+        margin-right: 130px;
+        font-weight: bolder;
+    }
+
     .button-contact {
         margin-right: 122px;
     }
@@ -289,13 +294,13 @@
     }
 
     img {
-        width: 600px;
-        margin-right: 112px;
+        width: 396px;
+        margin-right: 100px;
     }
 
     p {
         color: black;
-        margin-right: 70px;
+        margin-right: 6;
     }
 }
 
@@ -347,5 +352,22 @@
         img {
             max-width: 64px;
         }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-description {
+        width: 50%;
+        margin-right: 230px;
+
+        h2 {
+            color: black;
+        }
+
+        p {
+            font-size: px;
+        }
+
+
     }
 }
