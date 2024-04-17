@@ -122,6 +122,7 @@ i {
   line-height: 150%;
   max-width: 940px;
   font-size: 46px;
+  color: #fff;
 }
 .hero p {
   text-align: center;
@@ -187,10 +188,11 @@ i {
   align-items: center;
   justify-content: center;
   gap: 14px;
-  padding: 34px 14px 64px 14px;
+  margin: 0;
 }
 .about-content img {
-  max-width: 520px;
+  max-width: -moz-max-content;
+  max-width: max-content;
 }
 
 .about-content div {
@@ -291,6 +293,17 @@ i {
 @media screen and (max-width: 768px) {
   .encartes {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  .segunda img {
+    margin-right: 460px;
+  }
+  .services .services-content h2 {
+    margin-right: 90px;
+  }
+  .services .services-content p {
+    margin-right: 112px;
   }
 }
 .footer {
