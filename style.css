@@ -16,19 +16,19 @@ header {
 }
 
 i {
-  color: black;
+  color: #fff;
 }
 
 .header-icons {
   display: flex;
   gap: 14px;
   font-size: 24px;
-  color: black;
+  color: #fff;
 }
 
 .header-icons a:hover i {
   animation: translateY 0.8s infinite alternate;
-  color: black;
+  color: rgb(255, 6, 6);
 }
 
 @keyframes translateY {
@@ -40,17 +40,17 @@ i {
   }
 }
 .header-button {
-  border: 1px solid #06121e;
+  border: 1px solid #fff;
   padding: 8px 24px;
   border-radius: 4px;
-  color: #06121e;
+  color: #fff;
   background-color: transparent;
   transition: background-color 0.8s;
 }
 
 .header-button:hover {
-  border: 1px solid #d7c87e;
-  background-color: #d7c87e;
+  border: 1px solid rgba(215, 200, 126, 0.0392156863);
+  background-color: rgba(215, 200, 126, 0.2980392157);
 }
 
 .header-logo {
@@ -170,9 +170,9 @@ i {
   }
 }
 .about {
-  background-color: #320000;
+  background-color: #f6f69f;
   overflow: hidden;
-  color: #d7c87e;
+  color: #fff;
 }
 
 .about-content {
